@@ -38,7 +38,7 @@ def process_text(text):
 if __name__ == '__main__':
     speak("Initialising Jarvis.....")
     with microphone as source:
-        # recognizer.adjust_for_ambient_noise(source)
+        recognizer.adjust_for_ambient_noise(source)
         # recognizer.pause_threshold = 1
         print("Listening....")
         speak("Say Jarvis to activate me")
