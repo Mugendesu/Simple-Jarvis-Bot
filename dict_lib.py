@@ -1,4 +1,5 @@
-
+# Dictionary for music 
+# Add more songs as per your requirement
 music= {
     "": "",
     "jingle bells": "https://youtu.be/gI438fS6uUc?list=RDgI438fS6uUc",
@@ -87,6 +88,67 @@ music= {
     "danger": "https://www.youtube.com/watch?v=43r6lXilbcQ",
     "war of hormone": "https://www.youtube.com/watch?v=9Yy8o1BeFaE",
     "boy in luv": "https://www.youtube.com/watch?v=2cTZTqBU1Rc",
+}
+
+# Dictionary for Websites 
+# Add more websites as per your requirement
+websites = {
+    "": "",
+    "google": "https://www.google.com",
+    "youtube": "https://www.youtube.com",
+    "facebook": "https://www.facebook.com",
+    "instagram": "https://www.instagram.com",
+    "twitter": "https://www.twitter.com",
+    "netflix": "https://www.netflix.com",
+    "spotify": "https://www.spotify.com",
+    "amazon": "https://www.amazon.com",
+    "whatsapp": "https://web.whatsapp.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "stackoverflow": "https://stackoverflow.com",
+    "crunchyroll": "https://www.crunchyroll.com",
+    "geeksforgeeks": "https://www.geeksforgeeks.org",
+    
+}
+
+# Dictionary for Opening Applications
+# Add more applications as per your requirement
+# Location of the application might be different in your system, change it accordingly
+open_applications = {
+    "": "",
+    "notepad": "C:\\Windows\\System32\\notepad.exe",
+    "calculator": "C:\\Windows\\System32\\calc.exe",
+    "paint": "C:\\Windows\\System32\\mspaint.exe",
+    "word": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "excel": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+    "steam": "C:\\Program Files (x86)\\Steam\\Steam.exe",
+    "epic games": "C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe",
+    "discord": "C:\\Users\\amitj\\AppData\\Local\\Discord\\app-1.0.9175\\Discord.exe",
+    "Valorant": "C:\\Riot Games\\Riot Client\\RiotClientServices.exe",
+    "chrome": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "browser": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "vs code": "C:\\Users\\amitj\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "sekiro": "S:\\Sekiro.Shadows.Die.Twice.v1.06\\Sekiro - Shadows Die Twice\\sekiro.exe",
+    
+}
+
+# Dictionary for Closing opened Applications
+# Add more applications as per your requirement
+close_applications = {
+    "": "",
+    "notepad": "notepad.exe",
+    "calculator": "calc.exe",
+    "paint": "mspaint.exe",
+    "word": "WINWORD.EXE",
+    "excel": "EXCEL.EXE",
+    "steam": "Steam.exe",
+    "epic games": "EpicGamesLauncher.exe",
+    "discord": "Discord.exe",
+    "Valorant": "RiotClientServices.exe",
+    "chrome": "chrome.exe",
+    "browser": "chrome.exe",
+    "vs code": "Code.exe",
+    "sekiro": "sekiro.exe",
 }
 
 if __name__ == '__main__':
