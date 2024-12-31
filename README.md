@@ -17,12 +17,12 @@ Now run the ```main.py``` file and you are all set
 
 ### Commands it can support
 
-- **Open < app name > App** for Opening Applicaion
-- **Close < app name >** for Closing Applicaion
-- **Open < Website name >** for opening Website
-- **Search < Query >** for Searching the Query on Google
-- **Play < song name >** for Playing song on YT (or anywhere else as specified by the dictionary)
-- **Deactivate** For Deactivating Jarvis
+- "**Open < app name > App**" for Opening Applicaion
+- "**Close < app name >**" for Closing Applicaion
+- "**Open < Website name >**" for opening Website
+- "**Search < Query >**" for Searching the Query on Google
+- "**Play < song name >**" for Playing song on YT (or anywhere else as specified by the dictionary)
+- "**Deactivate**" For Deactivating Jarvis
 
 
 ### *dict_lib.py*
