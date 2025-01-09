@@ -123,11 +123,11 @@ open_applications = {
     "excel": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
     "steam": "C:\\Program Files (x86)\\Steam\\Steam.exe",
     "epic games": "C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe",
-    "discord": "C:\\Users\\amitj\\AppData\\Local\\Discord\\app-1.0.9175\\Discord.exe",
+    "discord": "C:\\Users\\{username}\\AppData\\Local\\Discord\\app-1.0.9175\\Discord.exe",
     "Valorant": "C:\\Riot Games\\Riot Client\\RiotClientServices.exe",
     "chrome": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
     "browser": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
-    "vs code": "C:\\Users\\amitj\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "vs code": "C:\\Users\\{username}\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
     "sekiro": "S:\\Sekiro.Shadows.Die.Twice.v1.06\\Sekiro - Shadows Die Twice\\sekiro.exe",
     
 }
