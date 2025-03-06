@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-API_KEY = open('API_KEY' , 'r').read()
+API_KEY = open('API_KEY' , 'r').read() #<-- Your Api Key Here
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
@@ -14,7 +14,7 @@ def bot_init(command):
   user_message = command
   chat_log.append({'role' : 'user' , "content" : user_message})
   response = client.chat.completions.create(
-      model="deepseek/deepseek-r1:free",
+      model="deepseek/deepseek-r1:free", #<-- Your Model name here
       messages= chat_log
   )
   bot_response = response.choices[0].message.content
