@@ -3,19 +3,19 @@
 
 ##  Simple Jarvis Bot
 
-This bot is Created using Python <br>
-It can open Websites and Search for something in Google using voice command <br>
-Can Open and Close applications<br>
-Can also play music on YT <br>
-After running the PY file , You need to say **"Jarvis"** to give it further commands
++ This bot is Created using Python <br>
++ It can open Websites and Search for something in Google using voice command <br>
++ Can Open and Close applications<br>
++ Can also play music on YT <br>
++ After running the PY file , You need to say **"Jarvis"** to give it further commands
 
 
 ### Installation Process
 
-First download and open the files into an IDE <br>
-Now u just have to install the Required modules <br>
-To do that , Open the Terminal and paste ```pip install -r requirement.txt``` <br>
-Now run the ```main.py``` file and you are all set
++ First download and open the files into an IDE <br>
++ Now u just have to install the Required modules <br>
++ To do that , Open the Terminal and paste ```pip install -r requirement.txt``` <br>
++ Now run the ```main.py``` file and you are all set
 
 
 ### Commands it can support
@@ -29,9 +29,9 @@ Now run the ```main.py``` file and you are all set
 
 
 ### *dict_lib.py*
- ```dict_lib.py``` file contains the links and locations of music ,websites and Applications<br>
-This bot can only access or open the Links or Application mentioned in this file.<br>
-```music``` :- add music title and its link (title should be in lowercase)<br>
-```open_applications``` :- add App name and its location (App name in lowercase)<br>
-```close_applications``` :- add accordingly to ```open_applications```<br>
-```websites``` :- websites name and link (Website name in lowercase)
++ ```dict_lib.py``` file contains the links and locations of music ,websites and Applications
++ This bot can only access or open the Links or Application mentioned in this file.
++ ```music``` :- add music title and its link (title should be in lowercase)
++ ```open_applications``` :- add App name and its location (App name in lowercase)
++ ```close_applications``` :- add accordingly to ```open_applications```
++ ```websites``` :- websites name and link (Website name in lowercase)
