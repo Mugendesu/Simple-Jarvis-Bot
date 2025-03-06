@@ -1,5 +1,7 @@
 # Dictionary for music 
 # Add more songs as per your requirement
+# The bot doesn't use this Dictionary anymore , but I haven't deleted just in case 
+# And also the code to access this is also just commented in the main file
 music= {
     "": "",
     "jingle bells": "https://youtu.be/gI438fS6uUc?list=RDgI438fS6uUc",
@@ -92,8 +94,11 @@ music= {
 
 # Dictionary for Websites 
 # Add more websites as per your requirement
+# The bot doesn't use this Dictionary anymore , but I haven't deleted just in case 
+# And also the code to access this is also just commented in the main file
 websites = {
     "": "",
+    "oracle": "https://oracle.eclerx.com/",
     "google": "https://www.google.com",
     "youtube": "https://www.youtube.com",
     "facebook": "https://www.facebook.com",
