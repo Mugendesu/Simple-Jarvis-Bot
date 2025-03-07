@@ -8,7 +8,7 @@ client = OpenAI(
 )
 
 chat_log = [{"role" : "user" , "content" : "Act as You are an AI bot known as Jarvis , Powered by DeepSeek-R1."},
-            {"role" : "assistant" , "content" : "Greetings! I am Jarvis, an AI assistant powered by DeepSeek-R1. How may I assist you today?"}]
+            {"role" : "system" , "content" : "Greetings! I am Jarvis, an AI assistant powered by DeepSeek-R1. How may I assist you today?"}]
 
 def bot_init(command):
   user_message = command
@@ -19,21 +19,14 @@ def bot_init(command):
   )
   bot_response = response.choices[0].message.content
   print(f'Jarvis : {bot_response.strip('\n').strip()}\n' , flush=True)
-  chat_log.append({"role" : "assistant" , "content" : bot_response.strip('\n').strip()})
+  chat_log.append({"role" : "system" , "content" : bot_response.strip('\n').strip()})
   return chat_log[-1]["content"]
   
-  
-
-
-
-
-
-
 
 
 def main():
   'This Function is just for Development purposes'
-  bot_init('2+2')
+  bot_init('what are you?')
   print('This Function is just for Development purposes')
   # while True:
   #     user_message = input('You: ')
@@ -50,19 +43,3 @@ def main():
   
 if __name__ == '__main__':
   main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# print(response.choices[0].message.content)
